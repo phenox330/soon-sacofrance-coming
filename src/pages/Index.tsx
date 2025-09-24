@@ -31,11 +31,16 @@ const Index = () => {
           
           {/* Domain highlight */}
           <div className="group cursor-pointer inline-block">
-            <p className="text-3xl md:text-4xl lg:text-5xl font-serif text-primary tracking-wide animate-pulse-subtle transition-all duration-300 group-hover:scale-105">
-              sacofrance.fr
-            </p>
-            <div className="w-full h-[1px] bg-primary/30 mt-4 transition-all duration-300 group-hover:bg-primary/50" />
-          </div>
+        <a
+          href="https://saco-france.fr"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-3xl md:text-4xl lg:text-5xl font-serif text-primary tracking-wide animate-pulse-subtle transition-all duration-300 group-hover:scale-105"
+        >
+      saco-france.fr
+      </a>
+    <div className="w-full h-[1px] bg-primary/30 mt-4 transition-all duration-300 group-hover:bg-primary/50" />
+    </div>
           
           {/* Decorative dots */}
           <div className="flex justify-center gap-2 mt-12">
