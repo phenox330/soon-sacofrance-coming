@@ -13,6 +13,22 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        serif: ['Playfair Display', 'Georgia', 'serif'],
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
+      backgroundImage: {
+        'gradient-soft': 'var(--gradient-soft)',
+        'gradient-elegant': 'var(--gradient-elegant)',
+      },
+      boxShadow: {
+        'soft': 'var(--shadow-soft)',
+        'elegant': 'var(--shadow-elegant)',
+      },
+      transitionTimingFunction: {
+        'smooth': 'cubic-bezier(0.4, 0, 0.2, 1)',
+        'elegant': 'cubic-bezier(0.16, 1, 0.3, 1)',
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
